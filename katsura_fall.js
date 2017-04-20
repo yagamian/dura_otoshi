@@ -1,10 +1,12 @@
 var width = window.innerWidth;
 
 
-window.onload = function() {
+window.onload = function start() {
 
     anim = TweenMax.to('#katsura', 2, {
-        x: '+=1100',  //現在のウィンドウサイズにする関数指定に直す
+        x: function(){
+            return (document.body.clientWidth - 200);
+        },  //現在のウィンドウサイズにする関数指定に直す
         ease: 'linear',
         repeat: -1,
         yoyo: true
