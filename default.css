@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+#katsura {
+    position: relative;
+    height: 190px;
+    width: auto;
+    margin: 0 0;
+    z-index: 1;
+}
+
+#hage {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 90px;
+    height: 250px;
+    width: auto;
+    z-index: 0;
+}
+
+#fall {
+    display: block;
+    margin: 0 auto;
+}
