@@ -14,7 +14,7 @@
         });
 
         $fall.addEventListener('click', function () {
-            $fall.disabled--;
+            $fall.disabled = true;
             anim.pause();
             anim = TweenMax.to('#katsura', 1, {
                 y: '+= 225',
