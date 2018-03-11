@@ -1,7 +1,9 @@
 (function () {
-    "use strict";
-    var width = window.innerWidth;
 
+    "use strict";
+
+    window.addEventListener('DOMContentLoaded', function start() {
+        var $fall = document.getElementById('fall');
 
     window.onload = function start() {
 
